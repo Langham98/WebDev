@@ -1,0 +1,263 @@
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset="utf-8">
+<title> Playlist </title> 
+
+
+<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet"> 
+
+
+<link rel="stylesheet" type="text/css" href="http://www.jeasyui.com/easyui/themes/default/easyui.css">
+<link rel="stylesheet" type="text/css" href="http://www.jeasyui.com/easyui/themes/icon.css">
+	
+<link rel="stylesheet" type="text/css" href="css/styles.css">
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+<script src="https://code.jquery.com/jquery-2.1.0.min.js"></script>
+<script src="https://www.jeasyui.com/easyui/jquery.easyui.min.js"></script>
+
+
+<script type="text/javascript" src="js/PlaylistScript.js"></script>
+
+</head>
+
+	
+<header>
+
+
+
+	<nav id="headernav" class="topnav">
+	
+<img  src="assets/klogo1.png"> </img>
+
+	<ul class="active">
+		<li class="current-item"> <a href="index.html"> Home </a></li>
+		<li> <a href="news.html"> News </a></li>
+		<li> <a href="playlist.html"> Playlist </a></li>
+		<li> <a href="createLogo.html"> Create a logo </a> </li>
+		<li> <a href="about.html"> About</a></li>
+		<li> <a href="video.html"> Videos</a></li>
+		<li> <a href="contact.html"> Contact Us</a></li>
+		<li> <a href="demo.html"> Demo</a></li>
+	</ul>	
+		<a class="toggle-nav" href="#">&#9776;</a>
+		
+		
+	
+	
+	</nav>
+
+
+</header>
+
+<body>
+
+<section id="store" class="red">
+	
+		<h1>Playlist</h1>
+		<p> This part will allow you to select different songs and compile them into a playlist by dragging and dropping the desired song into the playlist.</p>
+		
+		<div>
+		</div>
+		
+		
+</section>
+
+
+
+
+
+<ul class="songlist">
+			<li>
+				<a href="#" class="song" data-song="ClubFoot" data-length="3.34">
+				 
+				<div>
+				<p class="title" >Club Foot</p>
+				<p> Length:3:34</p>
+				</div>
+				</a>
+				</li>
+				
+			<li>
+				<a href="#" class="song" data-song="ProcessedBeats" data-length="3.08">
+				<div>
+					<p class="title" data="3.08">Processed Beats</p>
+					<p> Length:3:08</p>
+			</div>
+				</a>
+			</li>
+			
+			<li>
+				<a href="#" class="song" data-song="ReasonisTreason" data-length="4.35">
+				<div >
+					<p class="title" data="4.35">Reason is Treason</p>
+					<p> Length:4:35</p>
+				</div>
+				</a>
+			</li>
+				
+				
+			<li>
+				<a href="#" class="song" data-song="I.D." data-length="4.47">
+				<div >
+					<p class="title" data="4.47">I.D.</p>
+					<p> Length:4:47</p>
+				</div>
+				</a>
+			</li>
+				
+				
+			<li>
+				<a href="#" class="song" data-song="Orange" data-length="0.46">
+				<div >
+					<p class="title" data="0.46">Orange</p>
+					<p> Length:0:46</p>
+				</div>
+				</a>
+			</li>
+				
+				
+			<li>
+				<a href="#" class="song" data-song="L.S.F(LostSoulsForever)" data-length="3.17">
+				<div >
+					<p class="title" data="3.17">L.S.F (Lost Souls Forever)</p>
+					<p> Length:3:17</p>
+				</div>
+				</a>
+			</li>
+				
+				
+			<li>
+				<a href="#" class="song" data-song="RunningBattle" data-length="4.15">
+				<div >
+					<p class="title" data="4.15">Running Battle</p>
+					<p> Length:4:15</p>
+				</div>
+				</a>
+			</li>
+				
+				
+			<li>
+				<a href="#" class="song" data-song="TestTransmission" data-length="3.55">
+				<div >
+					<p class="title" data="3.55">Test Transmission</p>
+					<p> Length:3:55</p>
+				</div>
+				</a>
+			</li>
+				
+				
+			<li>
+				<a href="#" class="song" data-song="PinchRoller" data-length="1.13"> 
+				<div >
+					<p class="title" data="1.13">Pinch Roller</p>
+					<p> Length:1:13</p>
+				</div>
+				</a>
+			</li>
+				
+				
+			<li>
+				<a href="#" class="song" data-song="CuttOff" data-length="4.38">
+				<div >
+					<p class="title" data="4.38">Cutt Off</p>
+					<p> Length:4.38</p>
+				</div>
+				</a>
+			</li>
+
+			<li>
+				<a href="#" class="song" data-song="ButcherBlues" data-length="4.28">
+				<div >
+					<p class="title" data="4.28">Butcher Blues</p>
+					<p> Length:4:28</p>
+				</div>
+				</a>
+			</li>
+				
+			<li>
+				
+</ul>
+		<div class="playlist">
+			<h1>Playlist</h1>
+			
+			<table id="cartContent" style="width:300px;height:auto; background-color:white;"> 
+				
+				<thead>
+				
+				<tr>
+				
+				  <th field="song" width="90" align="left"  >Song Title</th>
+				  <th field="quantity" width="90" align="right" >Quantity</th>
+				  <th field="length" width="90" align="right">Song Length</th>
+				  
+				</tr>
+				</thead>
+				
+				
+			</thead>
+		</table>
+		
+		<p class="total">Total Length: 0:00</p>
+		<h2>Drop here to add to the playlist</h2>
+	</div>
+	
+
+
+
+
+
+
+
+
+
+
+
+<footer>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+
+</style>
+
+
+	<a href="https://www.facebook.com/kasabian/" class="fa fa-facebook"></a>
+	<a href="https://twitter.com/KasabianHQ/" class="fa fa-twitter"></a>
+	<a href="https://www.youtube.com/channel/UCBfwSo9wRWa5fxlnDye6H7Q" class="fa fa-youtube"></a>
+	<a href="https://www.instagram.com/kasabianofficial/" class="fa fa-instagram"></a>
+</footer>
+
+</body>
+</html>
